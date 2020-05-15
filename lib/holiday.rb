@@ -66,6 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday.hash.each do |season, holiday| 
     puts "#{season.capitalize}:" #this step makes sure that the block makes sense when read in normal terms 
+    holiday.each do |holiday, supply| # see how easy it is to read & understand it! C'mon somebody! 
     
 
 end
