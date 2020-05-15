@@ -57,7 +57,6 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  holiday = []
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
   #   Christmas: Lights, Wreath
@@ -65,7 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  holiday.hash.map do |season, holiday| 
+  holiday_hash.collect do |season, holiday| 
     puts "#{season.capitalize}:" # This step makes sure that the block makes sense when read in normal terms 
   holiday.each do |holiday, supply| # See how easy it is to read & understand!? C'mon somebody! 
     puts "#{holiday.to_s.split("_").collect {|word| word.capitalize}.join("_")}: #{(supply.join(","))}" 
