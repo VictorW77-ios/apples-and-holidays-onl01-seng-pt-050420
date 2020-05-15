@@ -67,8 +67,8 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def all_holidays_with_bbq(holiday_hash)
-  holiday_hash.collect do |season_hash, holiday_hash| 
-    holiday_hash.collect do |holiday, supply|
+  holiday_hash.map do |season_hash, holiday_hash| 
+    holiday_hash.map do |holiday, supply|
       if supply.include?("BBQ")
         holiday 
       end
