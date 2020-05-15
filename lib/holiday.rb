@@ -1,13 +1,7 @@
 require 'pry'
 
  # Write a method that returns the second supply for the Fourth of July
- #holiday_supplies = {
-  :winter => {
-    :christmas => ["Lights", "Wreath"],
-    :new_years => ["Party Hats"]
-  },
-  :summer => {
-    :fourth_of_july => ["Fireworks", "BBQ"]
+ ## holiday_supplies = {:winter => {:christmas => ["Lights", "Wreath"],:new_years => ["Party Hats"]}, :summer => {:fourth_of_july => ["Fireworks", "BBQ"]
   },
   :fall => {
     :thanksgiving => ["Turkey"]
