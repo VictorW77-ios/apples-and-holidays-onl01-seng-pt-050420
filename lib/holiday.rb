@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
     end
   end
   
-  #".split" converts a string into an array. My logic assumes the terminal expects to output this as an array instead of a string of a list. The rest is just me building the ins and outs of the rest of the sentence structures; the comma, the capitalized words, etc. You also have to remember account for everything - even the spaces between punctuations! (this held me up for a heavy minute trying to figure out why I kept getting errors!)
+  #".split" converts a string into an array. My logic assumes the terminal expects to output this as an array instead of a string of a list. The rest is just me building the ins and outs of the rest of the sentence structures; the comma, the capitalized words, etc. You also have to remember account for everything - even the spaces between punctuations! (this held me up for a heavy minute trying to figure out why I kept getting errors)
 end
 
 def all_holidays_with_bbq(holiday_hash)
