@@ -1,7 +1,23 @@
 require 'pry'
 
  # Write a method that returns the second supply for the Fourth of July
- ## holiday_supplies = {:winter => {:christmas => ["Lights", "Wreath"],:new_years => ["Party Hats"] }, :summer => {:fourth_of_july => ["Fireworks", "BBQ"] }, :fall => {:thanksgiving => ["Turkey"] }, :spring => {:memorial_day => ["BBQ"] } } 
+ # given that holiday_hash looks like this:
+  # {
+  #   :winter => {
+  #     :christmas => ["Lights", "Wreath"],
+  #     :new_years => ["Party Hats"]
+  #   },
+  #   :summer => {
+  #     :fourth_of_july => ["Fireworks", "BBQ"]
+  #   },
+  #   :fall => {
+  #     :thanksgiving => ["Turkey"]
+  #   },
+  #   :spring => {
+  #     :memorial_day => ["BBQ"]
+  #   }
+  # }
+  # return the second element in the 4th of July array
  
  
 def second_supply_for_fourth_of_july(holiday_hash)
