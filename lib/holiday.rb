@@ -68,9 +68,10 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:" # This step makes sure that the block makes sense when read in normal terms 
   holiday.each do |holiday, supply| # See how easy it is to read & understand!? C'mon somebody! 
     puts "#{holiday.to_s.split("_").collect {|word| word.capitalize}.join("_")}: #{(supply.join(","))}" 
+    end
   end
+  
     #".split" converts a string into an array. My logic assumes the terminal expects to output this as an array instead of a string of a list. The rest is just me building the ins and outs of the rest of the sentence structures; the comma, the capitalized words, etc
-
 end
 
 def all_holidays_with_bbq(holiday_hash)
